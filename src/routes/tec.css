@@ -1,0 +1,321 @@
+.Tech-f{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.Tech-r{
+   width: 573px;
+height: 444px;
+   
+    border-radius: 20px;
+    
+
+
+}
+
+.Tech-r Tec-sb-img{
+    width: 573px;
+}
+.Tec-p-text{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -0.5px;
+text-align: left;
+width: 582px;
+Height:80px;
+
+}
+span{
+    color: 
+#07A53D;
+}
+.Tec-h-text{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+/* padding: 1rem; */
+line-height: 60px;
+letter-spacing: -0.5px;
+text-align: left;
+Width:623px;
+Height:50px;
+margin-bottom: 2rem;
+
+}
+.Tech-l{
+    height: 50%;
+width: 506px;
+margin-right: 1rem;
+
+}
+.blankT{
+    width: 100%;
+height: 100px;
+margin-top: 6rem;
+margin-bottom: 6rem;
+background: rgba(150, 149, 149, 0.28);
+}
+
+.Tec-sb{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        width: 100%;
+        padding: 2rem;
+        margin-bottom: 5rem;
+}
+.Tec-sm-r{
+    width: 95%;
+
+
+}
+.Tec-sb-img,.Tec-tb-img{
+
+margin-left: 3rem;
+ width: 581px;
+height: 444px;
+
+background: #D9D9D9;
+
+}
+.Tec-h-sm{
+    margin-bottom: 2rem;
+height: 30px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 30px;
+/* identical to box height, or 68% */
+
+letter-spacing: -0.5px;
+
+color: #000000;
+}
+.Tec-p-sm{
+
+width: 100%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* or 150% */
+
+letter-spacing: -0.5px;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.Tech-t{
+    box-sizing: border-box;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+width: 100%;
+height: 687px;
+
+
+background: #FFFFFF;
+ border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.Tec-tb-text{
+    /* text-align: center; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 30px;
+/* identical to box height, or 75% */
+
+letter-spacing: -0.5px;
+
+color: #000000;
+
+}
+.Tec-tb{
+border: 1px solid rgba(0, 0, 0, 0.3);
+  display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        width: 100%;
+        
+        padding: 3rem;
+        margin-bottom: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+}
+
+
+.Tec-h-tm{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 30px;
+/* identical to box height, or 68% */
+
+letter-spacing: -0.5px;
+
+color: #000000;
+}
+
+
+
+.Tec-p-tb{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: -0.5px;
+margin-top: 2rem;
+color: #000000;
+}
+
+@media (max-width: 1000px) {
+.Tech-f{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 31px;
+/* width: 100%; */
+}
+.Tec-sb{
+      display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 31px; 
+width: 100%; 
+padding: 1rem;
+}
+
+.Tec-tb{
+         display: grid;
+grid-template-columns: 1fr;
+/* grid-template-rows: repeat(2, 1fr); */
+grid-column-gap: 0px;
+grid-row-gap: 31px;   
+width: 100%;
+padding-bottom: -5rem;
+}
+.Tech-f .Tech-l{
+   
+   width: 100%;
+   /* padding: 2rem; */
+   height: fit-content;
+   margin: auto;
+   margin-top: -3rem;
+
+}
+.Tec-h-text{
+    font-size: 27px;
+    width: fit-content;
+    height: 50px;
+    line-height: normal;
+    margin: auto;
+}
+.Tec-p-text{
+    font-size: large;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
+.Tech-r {
+    padding: 1rem;
+    width: 100vw;
+    height: fit-content;
+    margin-top: -3rem;
+
+}
+.Tech-r .Tec-sb-img{
+    width: 100%;
+   max-width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.blankT{
+    height: 43px;
+       margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+}
+
+.Tec-sb-img{
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    height: 300px;
+    margin-bottom: 5rem;
+    padding-bottom: 0;
+}
+
+.Tec-sb-text{
+    width: 100%;
+    margin-top: -7rem;
+}
+.Tec-h-sm{
+    font-size: 27px;
+    height: fit-content;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+}
+.Tec-p-sm{
+    font-size: large;
+    text-align: center;
+}
+
+.Tec-tb, .Tec-tb-text{
+    width: 100%;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.Tec-p-tb{
+    width: 100vw;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+}
+.Tec-h-tm{
+    width: 100vw;
+    padding: left 1rem; ;
+    padding: right 1rem; ;
+    font-size: 27px;
+    text-align: center;
+}
+
+.Tec-tb-img{
+    margin-left: 0;
+    max-width: 400px;
+    width: 90vw;
+    margin: auto;
+    height: 300px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+}
